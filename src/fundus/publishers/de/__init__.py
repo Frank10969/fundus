@@ -248,5 +248,6 @@ class DE(PublisherEnum):
             RSSFeed("https://www.freiepresse.de/rss/"),
             Sitemap("https://www.freiepresse.de/sitemap.xml"),
         ],
+
         parser=FreiePresseParser,
     )
