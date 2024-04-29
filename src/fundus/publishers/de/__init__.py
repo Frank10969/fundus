@@ -249,5 +249,4 @@ class DE(PublisherEnum):
             Sitemap("https://www.freiepresse.de/sitemap.xml"),
         ],
         parser=FreiePresseParser,
-
     )

@@ -20,6 +20,7 @@ class FreiePresseParser(ParserProxy):
                 self.precomputed.doc,
                 paragraph_selector=self._paragraph_selector,
             )
+            
 
 
         @attribute
