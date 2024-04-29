@@ -21,6 +21,7 @@ class FreiePresseParser(ParserProxy):
                 paragraph_selector=self._paragraph_selector,
             )
 
+
         @attribute
         def publishing_date(self) -> Optional[datetime.datetime]:
             return generic_date_parsing(self.precomputed.ld.bf_search("datePublished"))
